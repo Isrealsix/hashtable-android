@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insertHasMapSizeInputString" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/enter_map_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_map_size" />
+
+        <Button
+            android:id="@+id/addButtonString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addButtonString" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseTypeString" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <Button
+        android:id="@+id/stringButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stringButtonString" />
+
+    <Button
+        android:id="@+id/vectorButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vectorButtonString" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberInputString" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/enter_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_number" />
+
+        <Button
+            android:id="@+id/generateButtonString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generateButtonString" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idInputString" />
+
+    <EditText
+        android:id="@+id/enter_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_id" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/hashButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hashButtonString" />
+
+    <Button
+        android:id="@+id/getIdButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/getIdButtonString" />
+
+    <Button
+        android:id="@+id/removeButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/removeButtonString" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="18dp"
+        >
+    <Button
+        android:id="@+id/serializeButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/serializeButtonString" />
+
+    <Button
+        android:id="@+id/deserializeButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deserializeButtonString" />
+
+    <Button
+        android:id="@+id/resizeButtonString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resizeButtonString" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textSize="18sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/largeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="Result"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>

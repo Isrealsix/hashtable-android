@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">hashtable</string>
+    <string name="numberInputString">Number:</string>
+    <string name="generateButtonString">Generate</string>
+    <string name="idInputString">ID:</string>
+    <string name="hashButtonString">Hash</string>
+    <string name="getIdButtonString">Get ID:</string>
+    <string name="removeButtonString">Remove</string>
+    <string name="serializeButtonString">Serialize</string>
+    <string name="deserializeButtonString">Deserialize</string>
+    <string name="resizeButtonString">Resize</string>
+    <string name="insertHasMapSizeInputString">Insert HashMap Size</string>
+    <string name="addButtonString">Add</string>
+    <string name="stringButtonString">String</string>
+    <string name="vectorButtonString">Vector</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="enter_map_size">Enter map size</string>
+    <string name="chooseTypeString">Select Type</string>
+</resources>
